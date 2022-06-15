@@ -1,0 +1,15 @@
+%funciones_nav {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: aliceblue;
+  border-radius: 3rem;
+  box-shadow: 0 0 40px 40px #07c6a9 inset, 0 0 0 0 #07c6a9;
+  transition: all 150ms ease-in-out;
+  border-color: #07c6a9;
+  display: flex;
+  align-items: flex-end;
+}
+
+.funciones ul li a {
+  @extend %funciones_nav;
+}

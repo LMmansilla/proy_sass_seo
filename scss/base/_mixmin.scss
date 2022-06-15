@@ -1,0 +1,9 @@
+@mixin pos_central($display, $alineacion, $justificado) {
+  display: $display;
+  align-items: $alineacion;
+  justify-content: $justificado;
+}
+
+.logoheader {
+  @include pos_central(flex, center, center);
+}

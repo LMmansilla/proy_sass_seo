@@ -1,6 +1,9 @@
-// comentario en sass
+/* imports    */
 
-//nesting en la pagina "nosotros"
+@import "base/extends";
+@import "base/mixmin";
+
+/* nesting en la pagina "nosotros" */
 
 .nosotroscont {
   background-color: #d8d7e0;
@@ -88,7 +91,7 @@
     justify-content: flex-end;
   }
 
-  .funciones ul li a {
+  /*   .funciones ul li a {
     text-decoration: none;
     text-transform: uppercase;
     color: aliceblue;
@@ -99,7 +102,7 @@
     display: flex;
     align-items: flex-end;
   }
-
+ */
   .ingreso ul li {
     text-decoration: none;
     text-transform: uppercase;

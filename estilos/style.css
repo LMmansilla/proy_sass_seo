@@ -1,3 +1,21 @@
+/* imports    */
+.funciones ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: aliceblue;
+  border-radius: 3rem;
+  box-shadow: 0 0 40px 40px #07c6a9 inset, 0 0 0 0 #07c6a9;
+  transition: all 150ms ease-in-out;
+  border-color: #07c6a9;
+  display: flex;
+  align-items: flex-end; }
+
+.logoheader {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/* nesting en la pagina "nosotros" */
 .nosotroscont {
   background-color: #d8d7e0;
   display: flex;
@@ -59,7 +77,7 @@
     text-align: center;
     display: flex;
     justify-content: flex-end; }
-  .funciones ul li a {
+  /*   .funciones ul li a {
     text-decoration: none;
     text-transform: uppercase;
     color: aliceblue;
@@ -68,7 +86,9 @@
     transition: all 150ms ease-in-out;
     border-color: #07c6a9;
     display: flex;
-    align-items: flex-end; }
+    align-items: flex-end;
+  }
+ */
   .ingreso ul li {
     text-decoration: none;
     text-transform: uppercase;
